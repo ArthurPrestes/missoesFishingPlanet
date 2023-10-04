@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesca</title>
+    <!-- Adicione o link para o CSS do Bootstrap (você pode baixar o Bootstrap ou usar um CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+JiF6jc5it5t3Cz5z5ENUpRX6fOtOGqva8C2v+hbR5N3W8z" crossorigin="anonymous">
+    <style>
+        /* Estilo para o tema dark */
+        body {
+            background-color: #121212;
+            color: #fff;
+        }
+
+        .form-container {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .form-control {
+            background-color: #484848;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .form-label {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 form-container">
+                <div class="form-logo">
+                    <img src="assets/img/logo.png" alt="Logo da Pesca" width="200">
+                </div>
+                <h1 class="text-center mb-4">Formulário de Pesca</h1>
+                <form action="https://api.sheetmonkey.io/form/uHdKRtGRCnBXczHrmk6xzH" method="post">
+                    <div class="mb-3">
+                        <label for="nomeRio" class="form-label">Nome do Rio</label>
+                        <input type="text" class="form-control" id="nomeRio" name="nomeRio">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nomePeixe" class="form-label">Nome do Peixe</label>
+                        <input type="text" class="form-control" id="nomePeixe" name="nomePeixe">
+                    </div>
+                    <div class="mb-3">
+                        <label for="pesoPeixe" class="form-label">Peso do Peixe (em kg)</label>
+                        <input type="number" class="form-control" id="pesoPeixe" name="pesoPeixe">
+                    </div>
+                    <div class="mb-3">
+                        <label for="iscaNecessaria" class="form-label">Isca Necessária</label>
+                        <input type="text" class="form-control" id="iscaNecessaria" name="iscaNecessaria">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nomeMissao" class="form-label">Nome da Missão</label>
+                        <input type="text" class="form-control" id="nomeMissao" name="nomeMissao">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adicione o link para o JavaScript do Bootstrap (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
